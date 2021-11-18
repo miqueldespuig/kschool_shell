@@ -1,0 +1,65 @@
+sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+pwd
+clear
+git clone https://github.com/vinceliuice/Qogir-theme
+pwd
+tree
+clear
+ls
+cd Qogir-theme
+ls
+./install.sh
+exit
+git clone https://github.com/vinceliuice/Qogir-icon-theme
+ls
+cd Qogir-icon-theme
+./install.sh
+clear
+echo "Hello World\
+"
+echo Helo World
+echo Hello World
+echo echo Hola
+clear
+echo Hola
+echo echo Hola
+man echo
+clear
+echo $shell
+echo $SHELL
+echo $TERM
+echo $HOST
+echo $USER
+whoami
+MIKI=37
+echo $MIKI
+printenv
+echo $MIKI
+echo "My home directory is $HOME"
+echo My home directory is $HOME
+echo 'My home directory is $HOME'
+date
+echo DATE
+echo $DATE
+echo $(date)
+echo "Now is: $(date)"
+echo "World is\
+mine"
+echo "who is\
+my boss'\
+"
+echo " who is \n my boss"
+echo this is backslash \\ 
+echo this is tab? \t and continue
+echo "this is tab? \t and continue"
+echo this ; echo that
+echo this echo that
+echo "Now is: \" ; echo $(date)\
+"
+echo "Now is: \n" ; echo $(date)\
+"\
+"
+echo "Now is: \n" ; echo "$(date)"
+echo "Now is:" ; echo "$(date)"
+cat .history > 2021-11-16 zsh.txt
+cat .history > 2021-11-16_terminal.txt

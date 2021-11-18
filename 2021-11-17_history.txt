@@ -1,0 +1,190 @@
+    1  sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+    2  pwd
+    3  clear
+    4  git clone https://github.com/vinceliuice/Qogir-theme
+    5  pwd
+    6  tree
+    7  clear
+    8  ls
+    9  cd Qogir-theme
+   10  ls
+   11  ./install.sh
+   12  exit
+   13  git clone https://github.com/vinceliuice/Qogir-icon-theme
+   14  ls
+   15  cd Qogir-icon-theme
+   16  ./install.sh
+   17  clear
+   18  echo "Hello World\n"
+   19  echo Helo World
+   20  echo Hello World
+   21  echo echo Hola
+   22  clear
+   23  echo Hola
+   24  echo echo Hola
+   25  man echo
+   26  clear
+   27  echo $shell
+   28  echo $SHELL
+   29  echo $TERM
+   30  echo $HOST
+   31  echo $USER
+   32  whoami
+   33  MIKI=37
+   34  echo $MIKI
+   35  printenv
+   36  echo $MIKI
+   37  echo "My home directory is $HOME"
+   38  echo My home directory is $HOME
+   39  echo 'My home directory is $HOME'
+   40  date
+   41  echo DATE
+   42  echo $DATE
+   43  echo $(date)
+   44  echo "Now is: $(date)"
+   45  echo "World is\nmine"
+   46  echo "who is\nmy boss'\n"
+   47  echo " who is \n my boss"
+   48  echo this is backslash \\ 
+   49  echo this is tab? \t and continue
+   50  echo "this is tab? \t and continue"
+   51  echo this ; echo that
+   52  echo this echo that
+   53  echo "Now is: \" ; echo $(date)\n"
+   54  echo "Now is: \n" ; echo $(date)\n"\n"
+   55  echo "Now is: \n" ; echo "$(date)"
+   56  echo "Now is:" ; echo "$(date)"
+   57  cat .history > 2021-11-16 zsh.txt
+   58  cat .history > 2021-11-16_terminal.txt
+   59  ls
+   60  history
+   61  ls
+   62  ls -la
+   63  clear
+   64  history
+   65  clear
+   66  ls -la
+   67  clear
+   68  history
+   69  clear
+   70  history
+   71  clear
+   72  pwd
+   73  cd Documents
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd Documents
+   78  ls
+   79  cl -
+   80  cd -
+   81  ls -lrt
+   82  ls
+   83  ls -lrt
+   84  man ls
+   85  ls
+   86  ls -lrt
+   87  ls -la
+   88  man ls
+   89  pwd
+   90  ls -lh
+   91  cd ~
+   92  cd Documents
+   93  ls -lh
+   94  ls -lrt
+   95  ls
+   96  cd ..
+   97  ls
+   98  cd Documents
+   99  cd ..
+  100  pwd
+  101  cd Documents
+  102  pwd
+  103  cd ../..
+  104  pwd
+  105  ls
+  106  cd dsc
+  107  history
+  108  pwd
+  109  cd Documents
+  110  clear
+  111  echo "Canviamos a otro tema"
+  112  cd ~
+  113  ls -la
+  114  cat .zshrc
+  115  cat /etc/os-release
+  116  cat /proc/cpuinfo
+  117  clear
+  118  man cat
+  119  clear
+  120  ls -lrt /home/dsc/
+  121  ls -la
+  122  ls
+  123  pwd
+  124  cd Do
+  125  cd Documents
+  126  ls
+  127  echo "primera linia" > kk.txt
+  128  cat kk.txt
+  129  echo "segunda linia" >> kk.txt
+  130  cat kk.txt
+  131  echo "sobreescribe arxivo" > kk.txt
+  132  cat kk.txt
+  133  echo "primera línea" > kk.txt
+  134  echo "segunda línea" >> kk.txt
+  135  cat -n kk.txt
+  136  cd /
+  137  cd ~
+  138  ls -la
+  139  clear
+  140  cd data
+  141  ls -la
+  142  ls -lrt
+  143  cd ..
+  144  ls -lrt
+  145  clear
+  146  ll
+  147  cd Documents
+  148  mkdir first_dir
+  149  cd first_dir
+  150  clear
+  151  ll
+  152  touch text_file.txt
+  153  ll
+  154  man chmod
+  155  chmod g+x, o+w
+  156  chmod g+x,o+w
+  157  chmod g+x,o+w text_file.txt
+  158  ll
+  159  mkdir sub1
+  160  mkdir sub2
+  161  mkdir sub3
+  162  mkdir text_file
+  163  ll
+  164  cp ./text_file.txt ./sub1
+  165  ls ./sub1
+  166  cp ./sub1 ./sub3
+  167  cp -r ./sub1 ./sub3
+  168  ls ./sub3
+  169  ll
+  170  rm -r text_file
+  171  ll
+  172  tree
+  173  ll
+  174  pwd
+  175  cd ..
+  176  pwd
+  177  ll
+  178  ls ./first_dir/sub1
+  179  mv ./first_dir/sub1/text_file.txt ./first_dir/sub2/.hidden_file.txt
+  180  ls -a ./first_dir/sub2
+  181  ls ./first_dir/sub
+  182  ls ./first_dir/sub2
+  183  rm -r ./first_dir/sub2
+  184  ls ./first_dir
+  185  echo $HISTFILE
+  186  history -i
+  187  history
+  188  history -2
+  189  echo $HISTFILE
+  190  history -1000 -i > 2020-11-17_history.txt
