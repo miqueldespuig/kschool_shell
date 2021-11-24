@@ -1,0 +1,527 @@
+    1  sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+    2  pwd
+    3  clear
+    4  git clone https://github.com/vinceliuice/Qogir-theme
+    5  pwd
+    6  tree
+    7  clear
+    8  ls
+    9  cd Qogir-theme
+   10  ls
+   11  ./install.sh
+   12  exit
+   13  git clone https://github.com/vinceliuice/Qogir-icon-theme
+   14  ls
+   15  cd Qogir-icon-theme
+   16  ./install.sh
+   17  clear
+   18  echo "Hello World\n"
+   19  echo Helo World
+   20  echo Hello World
+   21  echo echo Hola
+   22  clear
+   23  echo Hola
+   24  echo echo Hola
+   25  man echo
+   26  clear
+   27  echo $shell
+   28  echo $SHELL
+   29  echo $TERM
+   30  echo $HOST
+   31  echo $USER
+   32  whoami
+   33  MIKI=37
+   34  echo $MIKI
+   35  printenv
+   36  echo $MIKI
+   37  echo "My home directory is $HOME"
+   38  echo My home directory is $HOME
+   39  echo 'My home directory is $HOME'
+   40  date
+   41  echo DATE
+   42  echo $DATE
+   43  echo $(date)
+   44  echo "Now is: $(date)"
+   45  echo "World is\nmine"
+   46  echo "who is\nmy boss'\n"
+   47  echo " who is \n my boss"
+   48  echo this is backslash \\ 
+   49  echo this is tab? \t and continue
+   50  echo "this is tab? \t and continue"
+   51  echo this ; echo that
+   52  echo this echo that
+   53  echo "Now is: \" ; echo $(date)\n"
+   54  echo "Now is: \n" ; echo $(date)\n"\n"
+   55  echo "Now is: \n" ; echo "$(date)"
+   56  echo "Now is:" ; echo "$(date)"
+   57  cat .history > 2021-11-16 zsh.txt
+   58  cat .history > 2021-11-16_terminal.txt
+   59  ls
+   60  history
+   61  ls
+   62  ls -la
+   63  clear
+   64  history
+   65  clear
+   66  ls -la
+   67  clear
+   68  history
+   69  clear
+   70  history
+   71  clear
+   72  pwd
+   73  cd Documents
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd Documents
+   78  ls
+   79  cl -
+   80  cd -
+   81  ls -lrt
+   82  ls
+   83  ls -lrt
+   84  man ls
+   85  ls
+   86  ls -lrt
+   87  ls -la
+   88  man ls
+   89  pwd
+   90  ls -lh
+   91  cd ~
+   92  cd Documents
+   93  ls -lh
+   94  ls -lrt
+   95  ls
+   96  cd ..
+   97  ls
+   98  cd Documents
+   99  cd ..
+  100  pwd
+  101  cd Documents
+  102  pwd
+  103  cd ../..
+  104  pwd
+  105  ls
+  106  cd dsc
+  107  history
+  108  pwd
+  109  cd Documents
+  110  clear
+  111  echo "Canviamos a otro tema"
+  112  cd ~
+  113  ls -la
+  114  cat .zshrc
+  115  cat /etc/os-release
+  116  cat /proc/cpuinfo
+  117  clear
+  118  man cat
+  119  clear
+  120  ls -lrt /home/dsc/
+  121  ls -la
+  122  ls
+  123  pwd
+  124  cd Do
+  125  cd Documents
+  126  ls
+  127  echo "primera linia" > kk.txt
+  128  cat kk.txt
+  129  echo "segunda linia" >> kk.txt
+  130  cat kk.txt
+  131  echo "sobreescribe arxivo" > kk.txt
+  132  cat kk.txt
+  133  echo "primera línea" > kk.txt
+  134  echo "segunda línea" >> kk.txt
+  135  cat -n kk.txt
+  136  cd /
+  137  cd ~
+  138  ls -la
+  139  clear
+  140  cd data
+  141  ls -la
+  142  ls -lrt
+  143  cd ..
+  144  ls -lrt
+  145  clear
+  146  ll
+  147  cd Documents
+  148  mkdir first_dir
+  149  cd first_dir
+  150  clear
+  151  ll
+  152  touch text_file.txt
+  153  ll
+  154  man chmod
+  155  chmod g+x, o+w
+  156  chmod g+x,o+w
+  157  chmod g+x,o+w text_file.txt
+  158  ll
+  159  mkdir sub1
+  160  mkdir sub2
+  161  mkdir sub3
+  162  mkdir text_file
+  163  ll
+  164  cp ./text_file.txt ./sub1
+  165  ls ./sub1
+  166  cp ./sub1 ./sub3
+  167  cp -r ./sub1 ./sub3
+  168  ls ./sub3
+  169  ll
+  170  rm -r text_file
+  171  ll
+  172  tree
+  173  ll
+  174  pwd
+  175  cd ..
+  176  pwd
+  177  ll
+  178  ls ./first_dir/sub1
+  179  mv ./first_dir/sub1/text_file.txt ./first_dir/sub2/.hidden_file.txt
+  180  ls -a ./first_dir/sub2
+  181  ls ./first_dir/sub
+  182  ls ./first_dir/sub2
+  183  rm -r ./first_dir/sub2
+  184  ls ./first_dir
+  185  echo $HISTFILE
+  186  history -i
+  187  history
+  188  history -2
+  189  echo $HISTFILE
+  190  history -1000 -i > 2020-11-17_history.txt
+  191  history -1000 > 2020-11-17_history.txt
+  192  cat 2020-11-17_history.txt
+  193  wc 2020-11-17_history.txt
+  194  wc 2020-11-17_history.txt -l
+  195  wc -l 2020-11-17_history.txt
+  196  git config --global user.name "Miquel Despuig"
+  197  git config --global user.email "miquel.despuig@gmail.com"
+  198  ls -la
+  199  ls Qogir-theme -la
+  200  clear
+  201  cd Documents/git
+  202  git clone https://github.com/miqueldespuig/kschool_shell.git
+  203  ls -lrt
+  204  cd kschool_shell
+  205  ls -a
+  206  ls -lrta
+  207  ll
+  208  ll -a
+  209  cat README.md
+  210  clear
+  211  cat README.md
+  212  cat .git/config
+  213  touch .gitignore
+  214  ls -la
+  215  git status
+  216  git add .gitignore
+  217  git status
+  218  git commit -m "add gitignore file"
+  219  git status
+  220  git push -u origin main
+  221  echo > "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" > .token
+  222  git status
+  223  echo ".token" >> .gitignore
+  224  git status
+  225  cat .gitignore
+  226  git status
+  227  cat .gitignore
+  228  ls -la
+  229  git add .gitignore
+  230  git status
+  231  git commit -m
+  232  git commit -m "gitignore setup"
+  233  git push origin main
+  234  git status
+  235  cat .token
+  236  echo "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" >> .token
+  237  cat .token
+  238  git status
+  239  ls -la
+  240  cat .token
+  241  rm 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
+  242  git status
+  243  clear
+  244  ls -la
+  245  cp ./2021-11-16_history.txt ~/Documents/git/kschool_shell
+  246  cp ./2021-11-17_history.txt ~/Documents/git/kschool_shell
+  247  ls ~/Documents/git/kschool_shell
+  248  cd ~/Documents/git/kschool_shell
+  249  ls -la
+  250  git status
+  251  git add 2021-11-16_history.txt 2021-11-17_history.txt
+  252  git status
+  253  git commit
+  254  git commit -m "Add previous days shell histories"
+  255  git status
+  256  git push origin main
+  257  cat .token
+  258  git push origin main
+  259  head -1 README.md
+  260  tail -2 README.md
+  261  tail -1 README.md
+  262  less README.md
+  263  clear
+  264  cd ~
+  265  gedit .zshrc
+  266  ls -la
+  267  clear
+  268  echo $PATH
+  269  CLEAR
+  270  tree
+  271  cd ./Documents
+  272  tree
+  273  clear
+  274  which -a python
+  275  which less
+  276  which less --quiet
+  277  whereis python
+  278  clear
+  279  history
+  280  history -10000
+  281  cd git
+  282  ls -la
+  283  cd kschool_shell
+  284  ls 
+  285  echo history > 2021-11-18_history.txt
+  286  ls -la
+  287  git add 2021-11-18_history.txt
+  288  git status
+  289  git commit
+  290  git status
+  291  git restore 2021-11-18_history.txt
+  292  git status
+  293  clear
+  294  history -10000 >> 2021-11-18_history.txt
+  295  tail -20 2021-11-18_history.txt
+  296  cd ./Documents
+  297  cd git
+  298  git status
+  299  cd kschool_shell
+  300  git status
+  301  git add 2021-11-18_history.txt
+  302  git status
+  303  git commit -m"shell commands 2021-11-18"
+  304  git status
+  305  git push origin main
+  306  ls -lrt
+  307  ll
+  308  whoami
+  309  date
+  310  clear
+  311  ls -lrt
+  312  ls -lS
+  313  clear
+  314  ls -lR
+  315  clear
+  316  ls -lS
+  317  ls -lS | head 1
+  318  ls -lS | cat | head 1
+  319  cat ls -lS
+  320  cat | ls -lS
+  321  cat | ls -lS | head 1
+  322  head 1 < cat ls -lS
+  323  clear
+  324  cd ~/Documents/git
+  325  ls -lrt
+  326  mkdir itcrowd
+  327  ls -lrt
+  328  cd itcrowd
+  329  git init
+  330  pwd
+  331  touch README.md
+  332  ls -lrt
+  333  vim README.md
+  334  nano README.md
+  335  cat README.md
+  336  git status
+  337  history
+  338  git add README.md
+  339  git status
+  340  git commit 
+  341  git commit -m "inicio"
+  342  git push -u origin main
+  343  git push -u main origin
+  344  clear
+  345  git status
+  346  ls -lrt
+  347  cad README.md
+  348  cat README.md
+  349  git status
+  350  git remote add origin https://github.com/miqueldespuig/itcrowd.git
+  351  git branch -M main
+  352  git push -u origin main
+  353  git status
+  354  clear
+  355  ls -lS ~/data/opentraveldata
+  356  ls -lS ~/data/opentraveldata > cat
+  357  ls -lS ~/data/opentraveldata | head 1
+  358  ls -lS ~/data/opentraveldata > head 1
+  359  ls -lS ~/data/opentraveldata | head 1
+  360  ls -lS ~/data/opentraveldata | head
+  361  ls -lS ~/data/opentraveldata | head -1
+  362  ls -lS ~/data/opentraveldata | head -n 1
+  363  ls -lrS ~/data/opentraveldata | tail -1
+  364  echo '#!/bin/bash' > 001.sh
+  365  ls -lrt
+  366  cat 001.sh
+  367  pwed
+  368  pwd
+  369  echo 'ls -lrS ~/data/opentraveldata | tail -1' >> 001.sh
+  370  cat 001.sh
+  371  ls -lrS ~/data/opentraveldata | tail -1 > 001.out
+  372  cat 001.out
+  373  git add 001.sh
+  374  git add 001.out
+  375  git status
+  376  git commit -m "ejercicio 01"
+  377  git push -u origin main
+  378  git status
+  379  ls -lrt
+  380  git status
+  381  clear
+  382  ls -lrt ~/data/opentraveldata
+  383  find finn.txt
+  384  find -r finn.txt
+  385  ls -lrt
+  386  cat readme.md 
+  387  cat README.md
+  388  cat README.md | head -5
+  389  cat README.md | head -5 | wc -w
+  390  echo '#!/bin/bash \n cat ~/data/shell/Finn.txt | head -5 | wc -w' > 002.sh
+  391  cat 002.sh
+  392  cat ~/data/shell/Finn.txt | head -5 | wc -w > 002.out
+  393  cat 002.out
+  394  nano 001.sh
+  395  nano 002.sh
+  396  cat 002.sh
+  397  git add 002.sh
+  398  git add 002.out
+  399  git status
+  400  git commit -m "ejercicio 02"
+  401  git push origin main
+  402  git status
+  403  cat ~/data/shell/Text_example.txt -n
+  404  cat ~/data/shell/Text_example.txt -n | head 3
+  405  cat ~/data/shell/Text_example.txt -n | head -3
+  406  echo '#!/bin/bash\ncat ~/data/shell/Text_example.txt -n | head -3' > 003.sh
+  407  cat 003.sh
+  408  cat ~/data/shell/Text_example.txt -n | head -3 > 003.out
+  409  cat 003.out
+  410  git add 003.sh
+  411  git add 003.out
+  412  git commit -m "ejercicio 03"
+  413  git status
+  414  git push origin main
+  415  git status
+  416  clear
+  417  cat ~/data/shell/Text_example.txt -n
+  418  cat ~/data/shell/Text_example.txt -n > Text_example_with_line_numbers.txt
+  419  cat Text_example_with_line_numbers.txt
+  420  echo '#!/bin/bash/\ncat ~/data/shell/Text_example.txt -n > Text_example_with_line_numbers.txt' > 004.sh
+  421  cat 004.sh
+  422  cat ~/data/shell/Text_example.txt -n > 004.out
+  423  cat 004.out
+  424  echo '#!/bin/bash/\ncat ~/data/shell/Text_example.txt -n > ./004.out' > 004.sh
+  425  cat 004.sh
+  426  cat 004.out
+  427  git add 004.sh
+  428  git add 004.out
+  429  rm Text_example_with_line_numbers.txt
+  430  ls -lrt
+  431  git status
+  432  git commit -m "ejercicio 04"
+  433  git push origin main
+  434  clear
+  435  echo whoami
+  436  whoami
+  437  whoami | echo
+  438  echo "whoami"
+  439  whoami
+  440  date
+  441  echo '$whoami'
+  442  echo 'whoami'
+  443  whoami date
+  444  whoami, date
+  445  whoami; date
+  446  clear
+  447  whoami; date
+  448  echo '#!/bin/bash'; whoami; date
+  449  whoami; date
+  450  echo '#!/bin/bash; whoami; date' > 005.sh
+  451  005.sh
+  452  ./005.sh
+  453  chmod +x
+  454  chmod u+x
+  455  chmod u+x 005.sh
+  456  ls -lrt
+  457  ./005.sh
+  458  echo '#!/bin/bash\nwhoami; date' > 005.sh
+  459  ./005.sh
+  460  clear
+  461  $USER
+  462  echo $USER
+  463  echo "El usuario que ha ejecutado el scrip és: $USER"
+  464  echo "La fecha y hora es: $DATE"
+  465  echo "La fecha y hora es: $(DATE)"
+  466  echo "La fecha y hora es: $DATE"
+  467  echo "La fecha y hora es: $date"
+  468  echo "La fecha y hora es: $(date)"
+  469  echo "La fecha y hora es: $(DATE)"
+  470  echo "La fecha y hora es: $(user)"
+  471  echo "La fecha y hora es: $(USER)"
+  472  echo "La fecha y hora es: $USER"
+  473  echo " usuario : $(whoami)"
+  474  echo "El usuario que ha ejecutado el script es: $(whoami)"
+  475  echo "Y lo ha ejecutado en: $(date)"
+  476  echo '#!/bin/bash/\necho "El usuario que ha ejecutado el script es: $(whoami) en la fecha $(date)"' > 005.sh
+  477  cat 005.sh
+  478  ./005.sh
+  479  ls -lrt
+  480  ./005.sh
+  481  cat 005.sh
+  482  ./005.sh
+  483  ls -lrt
+  484  echo '#!/bin/bash\n echo "El usuario que ha ejecutado el script es: $(whoami) en la fecha $(date)"' > 005.sh
+  485  ./005.sh
+  486  echo $USER
+  487  ./005.sh > 005.out
+  488  ls -lrt
+  489  git add 005.sh
+  490  git add 005.out
+  491  git commit -m "ejercicio 05"
+  492  git push origin master
+  493  git push origin main
+  494  git status
+  495  clear
+  496  touch 006.sh
+  497  ls -lrt
+  498  chmod u+x 006.sh
+  499  ls -lrt
+  500  nano 006.sh
+  501  ./006.sh
+  502  $edadusuario
+  503  echo $edadusuario
+  504  ./006.sh
+  505  echo $edadusuario
+  506  nano 006.sh
+  507  ./006.sh
+  508  nano 006.sh
+  509  ./006.sh
+  510  nano 006.sh
+  511  ./006.sh
+  512  nano 006.sh
+  513  clear
+  514  $edad = 5
+  515  edad = 5
+  516  clear
+  517  edad=5
+  518  $edad
+  519  echo $edad
+  520  clear
+  521  which python
+  522  python
+  523  clear
+  524  pwd
+  525  cd Documents
+  526  ls
+  527  history 10000 > 2021-11-23_history.txt
